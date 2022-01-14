@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(25, 106, 187);
+    padding-bottom: 20px;
+    border-bottom: solid 10px cyan;
+    list-style: none;
+    width: auto;
+    height: auto;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.div_header{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row;
+    width: auto;
+
+}
+
+.ul_link{
+    font-style: none;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.separado{
+    padding-right: 250px;
+    padding-left: 140px;
+}
+
+.foto-logo{
+    padding-left: 25px;
+}
+
+.div-slider{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 23.75%;
+    padding-left: 23.75%;
+}
+
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 30px 75px; 
+    grid-template-areas: 
+      "imagen1 texto2 imagen3 formulario"
+      "texto1 imagen2 texto3 formulario"; 
+    padding-bottom: 150px;
+  }
+
+.imagen1{
+    background-color: cadetblue;
+    grid-area: imagen1;
+}
+
+.imagen2{
+    background-color: rgb(95, 160, 117);
+    grid-area: imagen2;
+}
+
+.imagen3{
+    background-color: rgb(160, 95, 154);
+    grid-area: imagen3;
+}
+
+.texto1{
+    background-color: lightblue;
+    grid-area: texto1;
+}
+
+.texto2{
+    background-color: lightblue;
+    grid-area: texto2;
+}
+
+.texto3{
+    background-color: lightblue;
+    grid-area: texto3;
+}
+
+.formulario{
+    background-color: rgb(211, 143, 41);
+    grid-area: formulario;
+}
+
+.footer{
+    background-color: rgb(25, 106, 187);
+    padding-bottom: 20px;
+    border-top: solid 10px cyan;
+    display: inline-flex;
+    width: 100%;
+}
+
+.extra-info{
+    padding-left: 200px;
+}

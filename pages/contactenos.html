@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/estilos.css">
+	<title>Document</title>
+</head>
+
+<body>
+    <!-- INICIA EL HEADER -->
+    <header class="header">
+        <h2>CEO Centro Especializado Oftalmologico</h2>
+        <ul class="ul">
+			<li class="foto-logo"><img src="https://placedog.net/100" alt="Logo"></li>
+            <div class="div_header">
+                <li class="ul_link separado"><a href="../index.html">Inicio</a></li>
+                <li class="ul_link"><a href="./quienes.html">¿Quienes Somos?</a></li>
+                <li class="ul_link"><a href="./staff.html">Staff Médico</a></li>
+                <li class="ul_link"><a href="./enfermedades.html">Enfermedades Oculares</a></li>
+                <li class="ul_link negrita"><a href="./contactenos.html">Contáctenos</a></li>
+            </div>
+        </ul>
+    </header>
+    <!-- TERMINA EL HEADER -->
+
+	<form action="#" method="get">
+		<!-- PREGUNTAS PERSONALES -->
+		<h2>Informacion Personal</h2>
+		<!-- NOMBRE -->
+		<input type="text" placeholder="Ingresa tus nombres" name="Nombre" label="enviar-nombre" required>
+		<br>
+		<!-- APELLIDO -->
+		<input type="text" placeholder="Ingresa tus apellidos" name="Apellido" required>
+		<br>
+		<!-- EDAD -->
+		<input type="number" placeholder="Edad" name="Edad" required>
+		<br>
+		<!-- TELEFONO -->
+		<input type="tel" placeholder="963852741" name="Telefono" required>
+		<br>
+		<!-- CORREO -->
+		<input type="email" placeholder="ejemplo@correo.com" name="Correo" required>
+
+		<!-- Sedes -->
+		<div>
+			<h2>Sedes</h2>
+			<select>
+				<option value="Lima">Sede Lima</option>
+				<option value="Tacna">Sede Tacna</option>
+			</select>
+		</div>
+
+		<!-- Informacion al correo -->
+		<div>
+			<p>Desea recibir nuevas informaciones y promociones a su correo</p>
+			<input type="checkbox" name="Acepta" value="si">
+		</div>
+
+
+		<input type="submit" value="Enviar">
+	</form>
+
+	<!-- INICIA EL FOOTER -->
+    <footer class="footer">
+        <h2>Logo</h2>
+        <h2><a href="./contactenos.html">Contactenos</a></h2>
+        <h2>CEO Vida buena, Vista buena</h2>
+    </footer>
+</body>
+
+</html>
